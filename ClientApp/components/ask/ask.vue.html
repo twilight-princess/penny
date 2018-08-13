@@ -1,0 +1,9 @@
+<template>
+  <form>
+    <input v-model="newItem.title" placeholder="Title">
+    <input v-model="newItem.body" placeholder="I wonder why the sky is blue">
+    <button v-on:click="addItem($event)">Submit</button>
+  </form>
+</template>
+
+<script src="./ask.ts"></script>
